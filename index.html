@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div style="border: 2px solid navy; text-align: center; padding: 15px; border-radius: 10px;">
+        <div id="foodItems">
+            <input type="checkbox" id="burger" name="foodItem" value="Burger" />
+            <label for="burger">Burger</label>
+            <input type="checkbox" id="fries" name="foodItem" value="Fries" />
+            <label for="fries">Fries</label>
+            <input type="checkbox" id="drink" name="foodItem" value="Drink" />
+            <label for="drink">Drink</label>
+        </div>
+        <button id="orderButton">Order Food</button>
+    </div>
+
+    <div>
+        <div id="orderId">Order ID: <span id="orderIdValue"></span></div>
+        <img id="foodImage" src="" alt="Food" />
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
